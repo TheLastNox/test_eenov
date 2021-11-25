@@ -4,6 +4,7 @@
   "description": "Test eenov",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest outputGenerator.spec.js"
   },
   "author": "ronyd",
