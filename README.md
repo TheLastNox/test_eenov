@@ -4,7 +4,7 @@ Le projet nécéssite [Yarn](https://classic.yarnpkg.com/en/docs/install) et [No
 
 ## Installation
 
-- Installer les packages nécéssaires au projet avec la commande ````yarn``` depuis la racine du repertoire du projet
+- Installer les packages nécéssaires au projet avec la commande ```yarn``` depuis la racine du repertoire du projet
 
 ## Utilisation
 
