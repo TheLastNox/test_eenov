@@ -13,28 +13,29 @@ Le projet nécéssite [Yarn](https://classic.yarnpkg.com/en/docs/install) et [No
 - Saisissez les ids commes stipulé par le programmme (ex: 5 puis 1)
 Vous devriez obtenir le résultat suivant :
 ```
-    {
-      "user": {
+{
+  "user": {
+    "id": 5,
+    "total_points": 78,
+    "loyalty_cards": [
+      {
         "id": 1,
-        "total_points": 157,
-        "loyalty_cards": [
-            "id": 1,
-            "name": "Carrefour",
-            "points": 26
-          },
-          {
-            "id": 4,
-            "name": "Fnac",
-            "points": 131
-          }
-        ]
+        "name": "Carrefour",
+        "points": 12
       },
-      "loyalty_card": {
-        "id": 5,
-        "name": "Subway",
-        "points": 134
+      {
+        "id": 3,
+        "name": "MacDo",
+        "points": 66
       }
-    }
+    ]
+  },
+  "loyalty_card": {
+    "id": 1,
+    "name": "Carrefour",
+    "points": 56
+  }
+}
 ```
 - Pour lancer le test utiliser la commande `yarn test`
 
