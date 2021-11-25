@@ -1,0 +1,16 @@
+{
+  "name": "test_eenov",
+  "version": "1.0.0",
+  "description": "Test eenov",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest outputGenerator.spec.js"
+  },
+  "author": "ronyd",
+  "license": "ISC",
+  "dependencies": {
+    "input": "^1.0.1",
+    "jest": "^27.3.1",
+    "lodash": "^4.17.21"
+  }
+}
